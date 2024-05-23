@@ -17,6 +17,40 @@ html {
   min-height: 100%;
 }
 
+
 body {
-  margin-bottom: 60px;
+    font-family: Arial, sans-serif;
 }
+
+.pokemon-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+    .pokemon-list li {
+        margin: 10px 0;
+    }
+
+        .pokemon-list li a {
+            text-decoration: none;
+            color: #2c3e50;
+            font-weight: bold;
+        }
+
+            .pokemon-list li a:hover {
+                color: #e74c3c;
+            }
+
+.pagination {
+    margin-top: 20px;
+}
+
+    .pagination a {
+        margin-right: 10px;
+        text-decoration: none;
+        color: #3498db;
+    }
+
+        .pagination a:hover {
+            color: #2980b9;
+        }
